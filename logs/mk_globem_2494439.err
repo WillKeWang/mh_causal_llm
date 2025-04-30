@@ -1,0 +1,12 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+  0%|          | 0/4 [00:00<?, ?it/s]  0%|          | 0/4 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/groups/xx2489_gp/kw3215/mh_causal_llm/gen_dataset.py", line 547, in <module>
+    data1 = csv_reader('medAlpaca/data/globem/INS-W_{}/SurveyData/dep_weekly.csv'.format(insw_idx))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/groups/xx2489_gp/kw3215/mh_causal_llm/gen_dataset.py", line 23, in csv_reader
+    f = open(file_name, 'r')
+        ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'medAlpaca/data/globem/INS-W_1/SurveyData/dep_weekly.csv'
