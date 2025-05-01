@@ -1,0 +1,24 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 24.9.2
+    latest version: 25.3.1
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/kw3215/pip-req-build-w6rtm0xd
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/transformers.git /tmp/kw3215/pip-req-build-lnzkdmm_
+  DEPRECATION: Building 'fire' using the legacy setup.py bdist_wheel mechanism, which will be removed in a future version. pip 25.3 will enforce this behaviour change. A possible replacement is to use the standardized build interface by setting the `--use-pep517` option, (possibly combined with `--no-build-isolation`), or adding a `pyproject.toml` file to the source tree of 'fire'. Discussion can be found at https://github.com/pypa/pip/issues/6334
+Traceback (most recent call last):
+  File "/groups/xx2489_gp/kw3215/mh_causal_llm/make_globem_dataset.py", line 223, in <module>
+    main()
+  File "/groups/xx2489_gp/kw3215/mh_causal_llm/make_globem_dataset.py", line 214, in main
+    examples = build_globem_examples(args.root, args.subtask)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/groups/xx2489_gp/kw3215/mh_causal_llm/make_globem_dataset.py", line 106, in build_globem_examples
+    dep = float(sv["feel_depressed"][idx])
+                ~~^^^^^^^^^^^^^^^^^^
+KeyError: 'feel_depressed'

@@ -1,0 +1,13 @@
+
+EnvironmentNameNotFound: Could not find conda environment: healthllm_env
+You can list all discoverable environments with `conda info --envs`.
+
+
+Traceback (most recent call last):
+  File "/groups/xx2489_gp/kw3215/mh_causal_llm/make_globem_dataset.py", line 147, in <module>
+    ex   = build_globem_examples(root, args.subtask)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/groups/xx2489_gp/kw3215/mh_causal_llm/make_globem_dataset.py", line 80, in build_globem_examples
+    avg_steps        = float(steps_r[col2[
+                       ^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
