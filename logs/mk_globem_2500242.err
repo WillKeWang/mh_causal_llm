@@ -1,0 +1,13 @@
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 24.9.2
+    latest version: 25.3.1
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/peft.git /tmp/kw3215/pip-req-build-c00hd77i
+  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/transformers.git /tmp/kw3215/pip-req-build-1e5uqd7_

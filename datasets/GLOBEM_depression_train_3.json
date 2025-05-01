@@ -1,0 +1,17 @@
+[
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 depression which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] average is 7232.85714285714. Sleep efficiency, minutes after wake-up, minutes asleep, minutes awake (in bed), and minutes to fall asleep are 95.3571428571429, 0.0, 505.142857142857, 25.3571428571429, 0.0 respectively. What would be the PHQ-4 depression score?",
+        "output": "The predicted PHQ-4 depression score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 depression which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] average is 10352.0. Sleep efficiency, minutes after wake-up, minutes asleep, minutes awake (in bed), and minutes to fall asleep are 93.4, 0.0, 415.0, 30.0, 0.0 respectively. What would be the PHQ-4 depression score?",
+        "output": "The predicted PHQ-4 depression score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 depression which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] average is 14879.2. Sleep efficiency, minutes after wake-up, minutes asleep, minutes awake (in bed), and minutes to fall asleep are 98.25, 0.0, 429.25, 8.0, 0.0 respectively. What would be the PHQ-4 depression score?",
+        "output": "The predicted PHQ-4 depression score is 0."
+    }
+]
