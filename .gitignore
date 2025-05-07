@@ -2,3 +2,7 @@
 *notebooks*
 *.err
 *.log
+
+# ───────── GLOBEM data (ignored) ─────────
+data/*
+!data/.gitkeep
