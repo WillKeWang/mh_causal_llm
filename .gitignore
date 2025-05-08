@@ -2,6 +2,7 @@
 *notebooks*
 *.err
 *.log
+*.csv
 
 # ───────── GLOBEM data (ignored) ─────────
 data/*
