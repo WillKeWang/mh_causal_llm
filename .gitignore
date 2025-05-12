@@ -3,6 +3,7 @@
 *.err
 *.log
 *.csv
+*.png
 
 # ───────── GLOBEM data (ignored) ─────────
 data/*
