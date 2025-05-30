@@ -1,0 +1,114 @@
+digraph {
+	"SRI(t)"
+	"dlmo_proxy(t)"
+	"sigma_bed(t)"
+	"mid_sleep(t)"
+	"screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_allday_std(t)"
+	"slp_fitbit_sleep_intraday_rapids_mindurationawakeunifiedmain_afternoon_slope(t)"
+	"steps_fitbit_steps_intraday_rapids_stddurationsedentarybout_morning_slope(t)"
+	"steps_fitbit_steps_intraday_rapids_mindurationsedentarybout_allday_std(t)"
+	"slp_fitbit_sleep_summary_rapids_sumdurationafterwakeupmain_allday_slope(t)"
+	"steps_fitbit_steps_intraday_rapids_mindurationactivebout_night_mean(t)"
+	"screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_afternoon_slope(t)"
+	"slp_fitbit_sleep_intraday_rapids_ratiodurationasleepunifiedwithinmain_night_std(t)"
+	"slp_fitbit_sleep_intraday_rapids_ratiodurationawakeunifiedwithinmain_night_std(t)"
+	"steps_fitbit_steps_intraday_rapids_countepisodeactivebout_night_std(t)"
+	"slp_fitbit_sleep_summary_rapids_countepisodemain_allday_mean(t)"
+	"slp_fitbit_sleep_intraday_rapids_maxdurationawakeunifiedmain_evening_std(t)"
+	"steps_fitbit_steps_intraday_rapids_avgdurationsedentarybout_allday_std(t)"
+	"steps_fitbit_steps_intraday_rapids_avgdurationactivebout_night_slope(t)"
+	"screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_afternoon_std(t)"
+	"steps_fitbit_steps_intraday_rapids_sumdurationactivebout_evening_slope(t)"
+	"slp_fitbit_sleep_intraday_rapids_stddurationasleepunifiedmain_afternoon_mean(t)"
+	"slp_fitbit_sleep_intraday_rapids_ratiodurationawakeunifiedwithinmain_evening_std(t)"
+	"slp_fitbit_sleep_intraday_rapids_ratiodurationasleepunifiedwithinmain_evening_std(t)"
+	"PHQ4_dev(t)"
+	"slp_fitbit_sleep_intraday_rapids_ratiodurationawakeunifiedwithinmain_night_std(t)" -> "SRI(t)" [label=-0.17]
+	"steps_fitbit_steps_intraday_rapids_countepisodeactivebout_night_std(t)" -> "SRI(t)" [label=-0.12]
+	"slp_fitbit_sleep_summary_rapids_countepisodemain_allday_mean(t)" -> "SRI(t)" [label=-0.22]
+	"sigma_bed(t)" -> "dlmo_proxy(t)" [label=-0.16]
+	"mid_sleep(t)" -> "dlmo_proxy(t)" [label=0.12]
+	"slp_fitbit_sleep_summary_rapids_sumdurationafterwakeupmain_allday_slope(t)" -> "dlmo_proxy(t)" [label=0.07]
+	"steps_fitbit_steps_intraday_rapids_mindurationactivebout_night_mean(t)" -> "dlmo_proxy(t)" [label=-0.12]
+	"slp_fitbit_sleep_intraday_rapids_maxdurationawakeunifiedmain_evening_std(t)" -> "dlmo_proxy(t)" [label=-0.14]
+	"screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_afternoon_std(t)" -> "dlmo_proxy(t)" [label=0.11]
+	"slp_fitbit_sleep_intraday_rapids_ratiodurationawakeunifiedwithinmain_evening_std(t)" -> "dlmo_proxy(t)" [label=0.09]
+	"SRI(t)" -> "sigma_bed(t)" [label=-0.22]
+	"slp_fitbit_sleep_summary_rapids_sumdurationafterwakeupmain_allday_slope(t)" -> "sigma_bed(t)" [label=-0.10]
+	"screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_afternoon_slope(t)" -> "sigma_bed(t)" [label=0.14]
+	"slp_fitbit_sleep_intraday_rapids_maxdurationawakeunifiedmain_evening_std(t)" -> "sigma_bed(t)" [label=0.24]
+	"steps_fitbit_steps_intraday_rapids_avgdurationactivebout_night_slope(t)" -> "sigma_bed(t)" [label=-0.18]
+	"slp_fitbit_sleep_intraday_rapids_ratiodurationasleepunifiedwithinmain_evening_std(t)" -> "sigma_bed(t)" [label=0.25]
+	"SRI(t)" -> "mid_sleep(t)" [label=-0.31]
+	"slp_fitbit_sleep_summary_rapids_sumdurationafterwakeupmain_allday_slope(t)" -> "mid_sleep(t)" [label=-0.18]
+	"screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_afternoon_slope(t)" -> "mid_sleep(t)" [label=0.14]
+	"steps_fitbit_steps_intraday_rapids_countepisodeactivebout_night_std(t)" -> "mid_sleep(t)" [label=0.11]
+	"slp_fitbit_sleep_intraday_rapids_maxdurationawakeunifiedmain_evening_std(t)" -> "mid_sleep(t)" [label=-0.10]
+	"steps_fitbit_steps_intraday_rapids_avgdurationsedentarybout_allday_std(t)" -> "mid_sleep(t)" [label=-0.11]
+	"steps_fitbit_steps_intraday_rapids_avgdurationactivebout_night_slope(t)" -> "mid_sleep(t)" [label=0.17]
+	"steps_fitbit_steps_intraday_rapids_sumdurationactivebout_evening_slope(t)" -> "mid_sleep(t)" [label=0.15]
+	"slp_fitbit_sleep_intraday_rapids_stddurationasleepunifiedmain_afternoon_mean(t)" -> "mid_sleep(t)" [label=0.28]
+	"PHQ4_dev(t)" -> "mid_sleep(t)" [label=0.06]
+	"SRI(t)" -> "screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_allday_std(t)" [label=0.25]
+	"sigma_bed(t)" -> "screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_allday_std(t)" [label=0.43]
+	"mid_sleep(t)" -> "screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_allday_std(t)" [label=-0.10]
+	"steps_fitbit_steps_intraday_rapids_stddurationsedentarybout_morning_slope(t)" -> "screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_allday_std(t)" [label=0.09]
+	"steps_fitbit_steps_intraday_rapids_mindurationsedentarybout_allday_std(t)" -> "screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_allday_std(t)" [label=-0.19]
+	"screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_afternoon_slope(t)" -> "screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_allday_std(t)" [label=-0.09]
+	"steps_fitbit_steps_intraday_rapids_avgdurationactivebout_night_slope(t)" -> "screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_allday_std(t)" [label=0.19]
+	"screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_afternoon_std(t)" -> "screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_allday_std(t)" [label=0.14]
+	"slp_fitbit_sleep_intraday_rapids_stddurationasleepunifiedmain_afternoon_mean(t)" -> "screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_allday_std(t)" [label=-0.12]
+	"slp_fitbit_sleep_intraday_rapids_ratiodurationawakeunifiedwithinmain_evening_std(t)" -> "screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_allday_std(t)" [label=0.15]
+	"SRI(t)" -> "steps_fitbit_steps_intraday_rapids_stddurationsedentarybout_morning_slope(t)" [label=-0.20]
+	"slp_fitbit_sleep_intraday_rapids_mindurationawakeunifiedmain_afternoon_slope(t)" -> "steps_fitbit_steps_intraday_rapids_stddurationsedentarybout_morning_slope(t)" [label=-0.17]
+	"steps_fitbit_steps_intraday_rapids_mindurationsedentarybout_allday_std(t)" -> "steps_fitbit_steps_intraday_rapids_stddurationsedentarybout_morning_slope(t)" [label=-0.31]
+	"screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_afternoon_slope(t)" -> "steps_fitbit_steps_intraday_rapids_stddurationsedentarybout_morning_slope(t)" [label=-0.12]
+	"slp_fitbit_sleep_intraday_rapids_ratiodurationawakeunifiedwithinmain_night_std(t)" -> "steps_fitbit_steps_intraday_rapids_stddurationsedentarybout_morning_slope(t)" [label=-0.16]
+	"steps_fitbit_steps_intraday_rapids_avgdurationsedentarybout_allday_std(t)" -> "steps_fitbit_steps_intraday_rapids_stddurationsedentarybout_morning_slope(t)" [label=0.23]
+	"steps_fitbit_steps_intraday_rapids_sumdurationactivebout_evening_slope(t)" -> "steps_fitbit_steps_intraday_rapids_stddurationsedentarybout_morning_slope(t)" [label=-0.16]
+	"PHQ4_dev(t)" -> "steps_fitbit_steps_intraday_rapids_stddurationsedentarybout_morning_slope(t)" [label=0.05]
+	"SRI(t)" -> "slp_fitbit_sleep_summary_rapids_sumdurationafterwakeupmain_allday_slope(t)" [label=-0.23]
+	"slp_fitbit_sleep_intraday_rapids_mindurationawakeunifiedmain_afternoon_slope(t)" -> "slp_fitbit_sleep_summary_rapids_sumdurationafterwakeupmain_allday_slope(t)" [label=0.10]
+	"steps_fitbit_steps_intraday_rapids_stddurationsedentarybout_morning_slope(t)" -> "slp_fitbit_sleep_summary_rapids_sumdurationafterwakeupmain_allday_slope(t)" [label=-0.10]
+	"screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_afternoon_slope(t)" -> "slp_fitbit_sleep_summary_rapids_sumdurationafterwakeupmain_allday_slope(t)" [label=0.16]
+	"slp_fitbit_sleep_intraday_rapids_ratiodurationawakeunifiedwithinmain_night_std(t)" -> "slp_fitbit_sleep_summary_rapids_sumdurationafterwakeupmain_allday_slope(t)" [label=-0.11]
+	"steps_fitbit_steps_intraday_rapids_countepisodeactivebout_night_std(t)" -> "slp_fitbit_sleep_summary_rapids_sumdurationafterwakeupmain_allday_slope(t)" [label=-0.10]
+	"steps_fitbit_steps_intraday_rapids_avgdurationsedentarybout_allday_std(t)" -> "slp_fitbit_sleep_summary_rapids_sumdurationafterwakeupmain_allday_slope(t)" [label=-0.11]
+	"PHQ4_dev(t)" -> "slp_fitbit_sleep_summary_rapids_sumdurationafterwakeupmain_allday_slope(t)" [label=0.09]
+	"slp_fitbit_sleep_intraday_rapids_ratiodurationawakeunifiedwithinmain_night_std(t)" -> "slp_fitbit_sleep_intraday_rapids_ratiodurationasleepunifiedwithinmain_night_std(t)" [label=1.00]
+	"slp_fitbit_sleep_intraday_rapids_mindurationawakeunifiedmain_afternoon_slope(t)" -> "slp_fitbit_sleep_intraday_rapids_ratiodurationawakeunifiedwithinmain_night_std(t)" [label=-0.21]
+	"slp_fitbit_sleep_summary_rapids_countepisodemain_allday_mean(t)" -> "slp_fitbit_sleep_intraday_rapids_ratiodurationawakeunifiedwithinmain_night_std(t)" [label=0.27]
+	"slp_fitbit_sleep_summary_rapids_countepisodemain_allday_mean(t)" -> "steps_fitbit_steps_intraday_rapids_countepisodeactivebout_night_std(t)" [label=0.26]
+	"slp_fitbit_sleep_intraday_rapids_stddurationasleepunifiedmain_afternoon_mean(t)" -> "steps_fitbit_steps_intraday_rapids_countepisodeactivebout_night_std(t)" [label=0.23]
+	"SRI(t)" -> "slp_fitbit_sleep_intraday_rapids_maxdurationawakeunifiedmain_evening_std(t)" [label=-0.17]
+	"slp_fitbit_sleep_intraday_rapids_stddurationasleepunifiedmain_afternoon_mean(t)" -> "slp_fitbit_sleep_intraday_rapids_maxdurationawakeunifiedmain_evening_std(t)" [label=-0.19]
+	"slp_fitbit_sleep_intraday_rapids_mindurationawakeunifiedmain_afternoon_slope(t)" -> "steps_fitbit_steps_intraday_rapids_avgdurationsedentarybout_allday_std(t)" [label=-0.14]
+	"steps_fitbit_steps_intraday_rapids_mindurationsedentarybout_allday_std(t)" -> "steps_fitbit_steps_intraday_rapids_avgdurationsedentarybout_allday_std(t)" [label=0.50]
+	"steps_fitbit_steps_intraday_rapids_mindurationactivebout_night_mean(t)" -> "steps_fitbit_steps_intraday_rapids_avgdurationsedentarybout_allday_std(t)" [label=-0.19]
+	"screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_afternoon_slope(t)" -> "steps_fitbit_steps_intraday_rapids_avgdurationactivebout_night_slope(t)" [label=-0.15]
+	"steps_fitbit_steps_intraday_rapids_countepisodeactivebout_night_std(t)" -> "steps_fitbit_steps_intraday_rapids_avgdurationactivebout_night_slope(t)" [label=-0.12]
+	"slp_fitbit_sleep_intraday_rapids_stddurationasleepunifiedmain_afternoon_mean(t)" -> "steps_fitbit_steps_intraday_rapids_avgdurationactivebout_night_slope(t)" [label=0.17]
+	"steps_fitbit_steps_intraday_rapids_stddurationsedentarybout_morning_slope(t)" -> "screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_afternoon_std(t)" [label=0.19]
+	"screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_afternoon_slope(t)" -> "screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_afternoon_std(t)" [label=-0.14]
+	"steps_fitbit_steps_intraday_rapids_mindurationsedentarybout_allday_std(t)" -> "steps_fitbit_steps_intraday_rapids_sumdurationactivebout_evening_slope(t)" [label=-0.13]
+	"screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_afternoon_slope(t)" -> "steps_fitbit_steps_intraday_rapids_sumdurationactivebout_evening_slope(t)" [label=-0.14]
+	"slp_fitbit_sleep_intraday_rapids_ratiodurationawakeunifiedwithinmain_night_std(t)" -> "steps_fitbit_steps_intraday_rapids_sumdurationactivebout_evening_slope(t)" [label=-0.10]
+	"slp_fitbit_sleep_summary_rapids_countepisodemain_allday_mean(t)" -> "steps_fitbit_steps_intraday_rapids_sumdurationactivebout_evening_slope(t)" [label=-0.16]
+	"steps_fitbit_steps_intraday_rapids_avgdurationsedentarybout_allday_std(t)" -> "steps_fitbit_steps_intraday_rapids_sumdurationactivebout_evening_slope(t)" [label=0.15]
+	"slp_fitbit_sleep_intraday_rapids_mindurationawakeunifiedmain_afternoon_slope(t)" -> "slp_fitbit_sleep_intraday_rapids_stddurationasleepunifiedmain_afternoon_mean(t)" [label=0.35]
+	"steps_fitbit_steps_intraday_rapids_mindurationsedentarybout_allday_std(t)" -> "slp_fitbit_sleep_intraday_rapids_stddurationasleepunifiedmain_afternoon_mean(t)" [label=0.10]
+	"slp_fitbit_sleep_summary_rapids_countepisodemain_allday_mean(t)" -> "slp_fitbit_sleep_intraday_rapids_stddurationasleepunifiedmain_afternoon_mean(t)" [label=0.13]
+	"slp_fitbit_sleep_intraday_rapids_ratiodurationasleepunifiedwithinmain_evening_std(t)" -> "slp_fitbit_sleep_intraday_rapids_ratiodurationawakeunifiedwithinmain_evening_std(t)" [label=1.00]
+	"SRI(t)" -> "slp_fitbit_sleep_intraday_rapids_ratiodurationasleepunifiedwithinmain_evening_std(t)" [label=0.12]
+	"steps_fitbit_steps_intraday_rapids_stddurationsedentarybout_morning_slope(t)" -> "slp_fitbit_sleep_intraday_rapids_ratiodurationasleepunifiedwithinmain_evening_std(t)" [label=-0.10]
+	"steps_fitbit_steps_intraday_rapids_mindurationsedentarybout_allday_std(t)" -> "slp_fitbit_sleep_intraday_rapids_ratiodurationasleepunifiedwithinmain_evening_std(t)" [label=0.11]
+	"steps_fitbit_steps_intraday_rapids_mindurationactivebout_night_mean(t)" -> "slp_fitbit_sleep_intraday_rapids_ratiodurationasleepunifiedwithinmain_evening_std(t)" [label=0.14]
+	"screen_phone_screen_rapids_firstuseafter00unlock_locmap_home_afternoon_slope(t)" -> "slp_fitbit_sleep_intraday_rapids_ratiodurationasleepunifiedwithinmain_evening_std(t)" [label=0.13]
+	"slp_fitbit_sleep_intraday_rapids_maxdurationawakeunifiedmain_evening_std(t)" -> "slp_fitbit_sleep_intraday_rapids_ratiodurationasleepunifiedwithinmain_evening_std(t)" [label=0.33]
+	"slp_fitbit_sleep_intraday_rapids_mindurationawakeunifiedmain_afternoon_slope(t)" -> "PHQ4_dev(t)" [label=-0.28]
+	"slp_fitbit_sleep_summary_rapids_countepisodemain_allday_mean(t)" -> "PHQ4_dev(t)" [label=-0.27]
+	"slp_fitbit_sleep_intraday_rapids_stddurationasleepunifiedmain_afternoon_mean(t)" -> "PHQ4_dev(t)" [label=0.46]
+	{
+		rank=same
+	}
+}
